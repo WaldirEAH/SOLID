@@ -12,10 +12,10 @@ class CoffeeShop{
     public function removeProduct($id){
         //logica para borrar producto
     }
-    public function addToCart($id,$quantity){
+    public function addProductToCart($id,$quantity){
         //logica para agregar al carrito
     }
-    public function getTotal():void{
+    public function getCartTotal():void{
         //logica para generar el total a pagar del carrito
     }
     public function viewMenu(){
